@@ -162,6 +162,16 @@ byte[] hash = hasher.hash("Hello, World!".getBytes(StandardCharsets.UTF_8));
 System.out.println(SIHA.bytesToHex(hash));
 ```
 
+## Example Output
+
+```
+Hello World
+
+c6e6f86c8a98305446b748c6894aa51bcfe6518a1764eee9cfc0e5d881df84a2aed7c250279f2f98926ffda6a0e6b5cf993f02f926d002096b45aa5db108013c
+```
+
+SIHA outputs 1024 bit hashes
+
 ## Conclusion
 
 SIHA is a potentially quantum-resistant hash function that incorporates cellular automata-based initialization, ARX-based permutation, and ChaCha-inspired randomness to provide strong security guarantees
