@@ -1,8 +1,8 @@
 # SIHA (Short Input Hash Algorithm) - Documentation
 
-- **Version**: 1.0
-- **Author**: TheLabScientist
-- **Date**: 8th March, 2025
+**Author**: TheLabScientist
+
+**Creation Date**: 8th March, 2025
 
 ## Overview
 
