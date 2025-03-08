@@ -1,10 +1,10 @@
 # SIHA (Short Input Hash Algorithm) - Documentation
 
-**Version**: 1.0
-**Author**: TheLabScientist
-**Date**: 8th March, 2025
+- **Version**: 1.0
+- **Author**: TheLabScientist
+- **Date**: 8th March, 2025
 
-## 1. Overview
+## Overview
 
 **SIHA** (Short Input Hash Algorithm) is an experimental cryptographic hash function designed using java to provide high security, strong diffusion, and quantum resistance. The algorithm incorporates:
 
@@ -13,7 +13,7 @@
 - Feistel-like permutation structure for strong diffusion
 - Non-linear S-Box transformations to prevent structural patterns
 
-## 2. Design Goals
+## Design Goals
 
 - **Quantum Resistance** – Resistant to Grover’s search algorithm
 - **Strong Avalanche Effect** – Small input changes result in large output differences
@@ -21,7 +21,7 @@
 - **Preimage and Collision Resistance** – Prevents attackers from finding the original input or two inputs with the same hash
 - **Secure Against Length Extension Attacks** – Uses a strong padding scheme
 
-## 3. Algorithm Structure
+## Algorithm Structure
 
 ### State Initialization (Cellular Automata-Based)
 
