@@ -177,3 +177,13 @@ SIHA outputs 1024 bit hashes
 SIHA is a potentially quantum-resistant hash function that incorporates cellular automata-based initialization, ARX-based permutation, and ChaCha-inspired randomness to provide strong security guarantees
 
 I encourage you to make tests to ensure the algorithm is vulnerability free!
+
+## Challenge
+
+I have a challenge for you. Using all known cryptographic attacks, can you figure out the original input for the below hash?
+
+```
+3aeb1d1d9ce3cd582643f70291bda76c2068bb9d61c8e87d30c22ce1bc08ca68e4aa398760b1e5320d1de79a885c2e3f6e86adaf223c1a83f4934573c92d47e5
+```
+
+I will not make an update to this algorithm until a severe vulnerability is found :)
